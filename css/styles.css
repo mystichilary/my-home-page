@@ -1,0 +1,66 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styling for the login form container */
+.login {
+    border: 1px solid black;
+    width: 400px;
+    padding: 30px;
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    text-align: center;
+}
+
+/* Styling for the form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Styling for the form labels */
+label {
+    text-align: left;
+    font-size: 14px;
+    color: #fff;
+}
+
+/* Styling for the form input fields */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for the submit button */
+button {
+    padding: 12px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
